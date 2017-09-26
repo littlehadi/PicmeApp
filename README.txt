@@ -1,4 +1,4 @@
-Picme is an app that connects both beginner and professional photographers directly to their customers through isntant and on-demand appointments!
+Picme is an app that connects both beginner and professional photographers directly to their customers through instant, on-demand appointments!
 
 Creators:
 Hady El-Saleh – https://github.com/littlehadi
