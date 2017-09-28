@@ -1,5 +1,4 @@
 # Picme
-## Description
 This app allows you to connect with photographers in your area, on demand, for a quick photoshoot. Professional and hobbyist photographers can make a bit of money in their spare time while helping tourists and the local community.
 
 ## Founders
