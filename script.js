@@ -4,12 +4,11 @@
 
     // make navbar transparent if at top of page
     $(window).scroll(function() {
-        var scroll = $('html').scrollTop();
+        var scroll = $(window).scrollTop();
 
-        if (scroll > 100) {
-            $('#site-navigation').removeClass('nav-top')
-        } else {
-            $('#site-navigation').addClass('nav-top')
-        }
+        if (scroll > 100)
+            $('#site-navigation').removeClass('nav-top');
+        else
+            $('#site-navigation').addClass('nav-top');
     });
 })();
