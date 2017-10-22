@@ -1,11 +1,15 @@
 section {
-    padding: 5rem 0;
+    padding: 3rem 0;
 }
 
 section#home {
     display: block;
     color: white;
     padding: 0;
+}
+
+.bg-dark {
+    background-color: #333 !important;
 }
 
 .video-background {
@@ -41,11 +45,11 @@ section#features {
 
 }
 
-section#team {
+section#pricing {
 
 }
 
-section#pricing {
+section#team {
 
 }
 
