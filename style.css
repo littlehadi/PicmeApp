@@ -1,6 +1,9 @@
+body {
+    position: relative;
+}
+
 section {
-    margin-top: -2rem;
-    padding: 5rem 0 3rem 0;
+    padding: 5rem 0;
 }
 
 section#home {
