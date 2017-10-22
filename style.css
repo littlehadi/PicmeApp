@@ -2,7 +2,7 @@ body {
     position: relative;
 }
 
-nav, .nav-link, .navbar-brand img {
+.navbar-animated, .navbar-animated .nav-link, .navbar-animated .navbar-brand img {
     transition: 200ms all ease;
 }
 
