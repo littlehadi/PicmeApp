@@ -2,6 +2,10 @@ body {
     position: relative;
 }
 
+/******************************/
+/*           NAVBAR           */
+/******************************/
+
 .navbar-animated, .navbar-animated .nav-link, .navbar-animated .navbar-brand img {
     transition: 200ms all ease;
 }
@@ -30,6 +34,10 @@ body {
 section {
     padding: 5rem 0;
 }
+
+/******************************/
+/*            HOME            */
+/******************************/
 
 section#home {
     display: block;
@@ -68,21 +76,12 @@ section#home {
     text-align: center;
 }
 
+/******************************/
+/*          FEATURES          */
+/******************************/
+
 section#features {
 
-}
-
-section#pricing {
-
-}
-
-section#team {
-
-}
-
-footer {
-    background: #f5f5f5;
-    padding: 1rem;
 }
 
 .feature {
@@ -101,4 +100,29 @@ footer {
     max-width: 100%;
     max-height: 100%;
     display: inline-block;
+}
+
+/******************************/
+/*           PRICING          */
+/******************************/
+
+section#pricing {
+
+}
+
+/******************************/
+/*            TEAM            */
+/******************************/
+
+section#team {
+
+}
+
+/******************************/
+/*           FOOTER           */
+/******************************/
+
+footer {
+    background: #f5f5f5;
+    padding: 1rem;
 }
