@@ -1,1 +1,15 @@
-var scroll = new SmoothScroll('a[href*="#"]');
+(function() {
+    // init smooth scroll
+    new SmoothScroll('a[href*="#"]');
+
+    // make navbar transparent if at top of page
+    $(window).scroll(function() {
+        var scroll = $('html').scrollTop();
+
+        if (scroll > 100) {
+            $('#site-navigation').removeClass('nav-top')
+        } else {
+            $('#site-navigation').addClass('nav-top')
+        }
+    });
+})();
