@@ -1,15 +1,17 @@
 section {
     /* fixes nav obstructing sections when using anchors */
-    padding-top: 5rem;
     margin-top: -5rem;
+    padding: 10rem 0 5rem 0;
 }
 
 section#home {
     display: block;
     color: white;
+    padding: 0;
 }
 
 .video-background {
+    width: 100%;
     height: 100%;
     position: relative;
 }
@@ -33,7 +35,7 @@ section#home {
 }
 
 .video-background .overlay {
-    padding: 15rem 1rem;
+    padding: 20rem 1rem 15rem 1rem;
     text-align: center;
 }
 
