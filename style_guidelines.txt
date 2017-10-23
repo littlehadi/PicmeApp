@@ -2,7 +2,7 @@ Overall Look and Feel of Picme
 ==============================
 
 The overall look will be minimalist and flat, following the current trend in style. We will avoid anything related to 3D
-and gradients. The website should feel professional and not hurt the reader's eyes
+and gradients. The website should feel professional and not hurt the reader's eyes.
 
 Colours
 ========
