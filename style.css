@@ -16,20 +16,6 @@ section {
     transition: 200ms all ease;
 }
 
-nav ul li a:hover {
-    background-color: #fff;
-}
-
-nav ul li a {
-    display:block; 
-    text-decoration: none;
-    padding:40px 80px;
-    font-size: 20px;
-    font-weight: 300;
-    color: #323642;
-    transition: background-color 0.5s ease; 
-}
-
 .navbar-brand img {
     width: 120px;
 }
@@ -51,12 +37,12 @@ nav ul li a {
     padding-bottom: 2rem;
 }
 
-nav ul li a:hover {
-    background-color: rgb(32, 29, 29);
+#site-navigation.nav-top .nav-link:hover {
+    background-color: transparent;
 }
 
-nav ul li a {
-    transition: background-color 0.5s ease;
+#site-navigation .nav-link:hover {
+    background-color: rgb(32, 29, 29);
 }
 
 /******************************/
