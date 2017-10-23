@@ -1,6 +1,8 @@
 /* required for scrollspy */
 body {
     position: relative;
+    font-family: 'Titillium Web ', Calibri, sans-serif; 
+    
 }
 
 /* general section padding */
@@ -19,6 +21,22 @@ section {
 .navbar-brand img {
     width: 120px;
 }
+
+nav ul li a:hover {
+    background-color: #fff; 
+
+}
+
+nav ul li a {
+    display:block; 
+    text-decoration: none;
+    padding:40px 60px;
+    font-size: 20px;
+    font-weight: 300;
+    color: 323642;
+    transition: background-color 0.5s ease; 
+}
+
 
 .nav-top .navbar-brand img {
     width: 180px;
