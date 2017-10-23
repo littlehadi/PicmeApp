@@ -19,7 +19,7 @@ section {
 }
 
 .navbar-brand img {
-    width: 120px;
+    width: 150px;
 }
 
 nav ul li a:hover {
@@ -28,18 +28,17 @@ nav ul li a:hover {
 }
 
 nav ul li a {
-    display:block; 
+    display: block;
     text-decoration: none;
-    padding:40px 60px;
+    padding: 40px 60px;
     font-size: 20px;
     font-weight: 300;
     color: #323642;
-    transition: background-color 0.5s ease; 
 }
 
 
 .nav-top .navbar-brand img {
-    width: 180px;
+    width: 250px;
 }
 
 .bg-dark {
