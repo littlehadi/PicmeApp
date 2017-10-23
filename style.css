@@ -184,24 +184,16 @@ section#pricing {
 section#team {
 
 }
-.title{
-    font-family: "Arial", serif;
-    font-size: 80;
-    text-align: center;
-    font-weight: bold;
-    }
-.name{
-    font-family: "Trebuchet MS",sans-serif;
-    font-size: 200;
-    text-align: center;
-    font-weight: bold;
-    }
+
 .team-member {
     text-align: center;
 }
 
 .team-member .name {
-
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .team-member .portrait {
@@ -214,6 +206,8 @@ section#team {
     text-transform: uppercase;
     font-size: 1.25rem;
     font-weight: 300;
+    font-family: "Arial", serif;
+    text-align: center;
 }
 
 .team-member .description {
