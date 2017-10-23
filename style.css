@@ -162,7 +162,7 @@ section#pricing {
     content: "$";
     font-size: 1.75rem;
     position: relative;
-    top: -2.5rem;
+    top: -2.25rem;
 }
 
 .pricing-tier .features {
