@@ -127,6 +127,30 @@ section#team {
 
 }
 
+.team-member {
+    text-align: center;
+}
+
+.team-member .name {
+
+}
+
+.team-member .portrait {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+.team-member .title {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.team-member .description {
+
+}
+
 /******************************/
 /*           FOOTER           */
 /******************************/
