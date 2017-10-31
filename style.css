@@ -102,6 +102,22 @@ section#home {
     padding: 15rem 1rem;
     text-align: center;
 }
+.cta-button {
+    font-size: 35px;
+    font-size: 1vmax;
+    cursor: pointer;
+    background: rgb(71, 72, 73);
+    width: initial;
+    padding: 1.452vh 2.96vw;
+    border-radius: 60px;
+    color: #ff8888;
+    border: 2.5px solid #ff0000;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    margin: 0;
+    -webkit-animation: ctaInAnimation .3s linear forwards;
+    animation: ctaInAnimation .3s linear forward
+}
 
 /******************************/
 /*          FEATURES          */
