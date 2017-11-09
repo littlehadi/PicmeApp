@@ -10,6 +10,26 @@ section {
     padding: 5rem 0;
 }
 
+.btn-primary {
+    background-color: #880000;
+    border-color: #880000;
+}
+
+.btn-primary:hover {
+    background-color: #660000;
+    border-color: #660000;
+}
+
+.btn-primary:not([disabled]):not(.disabled):active {
+    background-color: #660000;
+    border-color: #440000;
+    box-shadow: 0 0 0 .2rem rgba(68,0,0,.5)
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgba(68,0,0,.5)
+}
+
 /******************************/
 /*         NAVIGATION         */
 /******************************/
@@ -101,22 +121,6 @@ section#home {
 .video-background .overlay {
     padding: 15rem 1rem;
     text-align: center;
-}
-.cta-button {
-    font-size: 35px;
-    font-size: 1vmax;
-    cursor: pointer;
-    background: rgb(71, 72, 73);
-    width: initial;
-    padding: 1.452vh 2.96vw;
-    border-radius: 60px;
-    color: #ff8888;
-    border: 2.5px solid #ff0000;
-    transition: all .2s ease-in-out;
-    display: inline-block;
-    margin: 0;
-    -webkit-animation: ctaInAnimation .3s linear forwards;
-    animation: ctaInAnimation .3s linear forward
 }
 
 /******************************/
