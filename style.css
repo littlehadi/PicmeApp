@@ -1,8 +1,8 @@
 /* required for scrollspy */
 body {
     position: relative;
-    font-family: 'Titillium Web', Calibri, sans-serif;
-    
+    font-family: 'Titillium Web', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 100;
 }
 
 /* general section padding */
