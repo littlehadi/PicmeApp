@@ -28,14 +28,15 @@ function onScroll() {
         var top = $self.offset().top;
         var height = $self.height();
 
-        // only animate if whole element isn't in viewport (indicating page was refreshed at a certain position)
         if (top < scroll + documentHeight && scroll + documentHeight < top + height)
+            // only animate if whole element isn't in viewport (indicating page was refreshed at a certain position)
             $elements.push($self);
         else if (scroll + documentHeight > top + height)
+            // reveal immediately if element is completely in viewport
             $self.css('visibility', 'visible').addClass('revealed')
     });
 
-    // iterate through elements that should be revealed
+    // iterate through elements that should be animated
     for (var i = 0; i < $elements.length; i++) {
         var $self = $elements[i];
         var animationName = $self.data('animation-name');
