@@ -6,13 +6,18 @@
 
         <!-- the website uses Twitter Bootstrap. Check out their documentation to learn about the
              available components and elements here https://getbootstrap.com/docs/4.0/getting-started/introduction/ -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha256-QUyqZrt5vIjBumoqQV0jM8CgGqscFfdGhN+nVCqX0vc=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.min.css"   integrity="sha256-QUyqZrt5vIjBumoqQV0jM8CgGqscFfdGhN+nVCqX0vc=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"                      integrity="sha256-j+P6EZJVrbXgwSR5Mx+eCS6FvP9Wq27MBRC/ogVriY0=" crossorigin="anonymous" />
         <link rel="stylesheet" href="style.css"/>
     </head>
 
     <body data-spy="scroll" data-target="#navbar" data-offset="55">
         <nav id="site-navigation" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-animated nav-top">
             <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+r
                 <a class="navbar-brand" href="#">
                     <img src="img/logo.svg"/>
                 </a>
@@ -49,7 +54,7 @@
                     </video>
                 </div>
                 <div class="container overlay">
-                    <h1>Pic the best photographer for the best moment</h1>
+                    <h1>Pick the best photographer for the best moment</h1>
                     <p class="lead">Wherever you are, Picme is right there.</p>
 
                     <p>
@@ -65,17 +70,17 @@
                 <h1>Features</h1>
                 <p>Picme is a service that allows people to get in contact with a photographer near their area for a quick photoshoot.</p>
                 <div class="row">
-                    <div class="feature col-md-4">
+                    <div class="feature col-md-4 wow fadeIn">
                         <div class="icon"><img src="img/camera-retro.svg"/></div>
                         <p>You have the option of selecting a professional photographer with an already established studio or an enthusiast who’s just starting out.</p>
                     </div>
 
-                    <div class="feature col-md-4">
+                    <div class="feature col-md-4 wow fadeIn delay-200">
                         <div class="icon"><img src="img/mobile-alt.svg"/></div>
                         <p>Using the mobile app, you locate and choose a photograph signed up with the service and have them get to their location in a few minutes.</p>
                     </div>
 
-                    <div class="feature col-md-4">
+                    <div class="feature col-md-4 wow fadeIn delay-400">
                         <div class="icon"><img src="img/paper-plane.svg"/></div>
                         <p>After the shoot, the photographer sends you the pictures through the Picme app.<p>
                     </div>
@@ -195,6 +200,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"                 integrity="sha256-/GXjBGBWRx8/y1Be190w3hrUOFXNs9qPhthi0tbNnG8=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"                      integrity="sha256-gL1ibrbVcRIHKlCO5OXOPC/lZz/gpdApgQAzskqqXp8=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha256-GIa8Vh3sfESnVB2CN3rYGkD/MklvMq0lmITweQxE1qU=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/graingert-wow/1.2.2/wow.min.js"                     integrity="sha256-gopJVYlh0S1SDzGgSVfVDKq3r27Lc8SzPE0FJ+c4EVk=" crossorigin="anonymous"></script>
         <script src="script.js"></script>
     </body>
 </html>

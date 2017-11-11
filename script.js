@@ -1,4 +1,6 @@
 (function() {
+    new WOW().init();
+
     // init smooth scroll
     new SmoothScroll('a[href*="#"]');
 

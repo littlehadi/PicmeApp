@@ -10,6 +10,26 @@ section {
     padding: 5rem 0;
 }
 
+.delay-200 {
+    animation-delay: 200ms;
+}
+
+.delay-400 {
+    animation-delay: 400ms;
+}
+
+.delay-600 {
+    animation-delay: 600ms;
+}
+
+.delay-800 {
+    animation-delay: 800ms;
+}
+
+.delay-1000 {
+    animation-delay: 1000ms;
+}
+
 .btn-primary {
     background-color: #880000;
     border-color: #880000;
@@ -56,30 +76,27 @@ nav ul li a {
     color: #323642;
 }
 
-
-.nav-top .navbar-brand img {
-    width: 250px;
-}
-
 .bg-dark {
     background-color: rgb(48, 48, 48) !important;
 }
 
-.nav-top {
-    background-color: transparent !important;
-}
-
-.nav-top .nav-link {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-#site-navigation.nav-top .nav-link:hover {
+#site-navigation .nav-link:hover {
     background-color: transparent;
 }
 
-#site-navigation .nav-link:hover {
-    background-color: rgb(32, 29, 29);
+@media screen and (min-width: 992px) {
+    .nav-top .navbar-brand img {
+        width: 250px;
+    }
+
+    .nav-top {
+        background-color: transparent !important;
+    }
+
+    .nav-top .nav-link {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
 }
 
 /******************************/
