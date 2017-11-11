@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+        <!-- modernizr stays on top to properly detect features -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" integrity="sha256-0rguYS0qgS6L4qVzANq4kjxPLtvnp5nn2nB5G1lWRv4=" crossorigin="anonymous"></script>
+
         <!-- the website uses Twitter Bootstrap. Check out their documentation to learn about the
              available components and elements here https://getbootstrap.com/docs/4.0/getting-started/introduction/ -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.min.css"   integrity="sha256-QUyqZrt5vIjBumoqQV0jM8CgGqscFfdGhN+nVCqX0vc=" crossorigin="anonymous" />
@@ -70,17 +73,17 @@
                 <h1>Features</h1>
                 <p class="lead">Picme is a service that allows people to get in contact with a photographer near their area for a quick photoshoot.</p>
                 <div class="row">
-                    <div class="feature col-md-4 wow fadeInLeft">
+                    <div class="feature col-md-4 scrollreveal" data-animation-name="fadeInLeft">
                         <div class="icon"><img src="img/camera-retro.svg"/></div>
                         <p>You have the option of selecting a professional photographer with an already established studio or an enthusiast who’s just starting out.</p>
                     </div>
 
-                    <div class="feature col-md-4 wow fadeInLeft delay-200">
+                    <div class="feature col-md-4 scrollreveal" data-animation-name="fadeInLeft">
                         <div class="icon"><img src="img/mobile-alt.svg"/></div>
                         <p>Using the mobile app, you locate and choose a photograph signed up with the service and have them get to their location in a few minutes.</p>
                     </div>
 
-                    <div class="feature col-md-4 wow fadeInLeft delay-400">
+                    <div class="feature col-md-4 scrollreveal" data-animation-name="fadeInLeft">
                         <div class="icon"><img src="img/paper-plane.svg"/></div>
                         <p>After the shoot, the photographer sends you the pictures through the Picme app.<p>
                     </div>
@@ -91,9 +94,9 @@
         <section id="pricing">
             <div class="container">
                 <h1>Pricing</h1>
-                <p>Pricing options include photo editing.</p>
+                <p class="lead">Pricing options include photo editing.</p>
                 <div class="row">
-                    <div class="offset-md-3 col-md-3 pricing-tier">
+                    <div class="offset-md-3 col-md-3 pricing-tier scrollreveal" data-animation-name="fadeIn">
                         <span class="name">Enthusiast</span>
                         <span class="cost">25</span>
                         <ul class="features">
@@ -102,7 +105,7 @@
                             <li>Feature 3</li>
                         </ul>
                     </div>
-                    <div class="col-md-3 pricing-tier">
+                    <div class="col-md-3 pricing-tier scrollreveal" data-animation-name="fadeIn">
                         <span class="name">Professional</span>
                         <span class="cost">35</span>
                         <ul class="features">
@@ -120,7 +123,7 @@
                 <h1>Team</h1>
                 <!-- TODO: put descriptions in hover-only container thing -->
                 <div class="row justify-content-center">
-                    <div class="team-member col-md-4 wow fadeInRight">
+                    <div class="team-member col-md-4 scrollreveal" data-animation-name="fadeInRight">
                         <h2 class="name">Hady El-Saleh</h2>
                         <img class="portrait" src="http://via.placeholder.com/150x150">
                         <p class="title">CEO</p>
@@ -131,7 +134,7 @@
                         </p>
                     </div>
 
-                    <div class="team-member col-md-4 wow fadeInRight delay-200">
+                    <div class="team-member col-md-4 scrollreveal" data-animation-name="fadeInRight">
                         <h2 class="name">Maulik Shah</h2>
                         <img class="portrait" src="http://via.placeholder.com/150x150">
                         <p class="title">Founder</p>
@@ -143,7 +146,7 @@
                         </p>
                     </div>
 
-                    <div class="team-member col-md-4 wow fadeInRight delay-400">
+                    <div class="team-member col-md-4 scrollreveal" data-animation-name="fadeInRight">
                         <h2 class="name">Nicolas Gnyra</h2>
                         <img class="portrait" src="http://via.placeholder.com/150x150">
                         <p class="title">Lead Developer</p>
@@ -154,7 +157,7 @@
                         </p>
                     </div>
 
-                    <div class="team-member col-md-4 wow fadeInRight">
+                    <div class="team-member col-md-4 scrollreveal" data-animation-name="fadeInRight">
                         <h2 class="name">Maxim Melkonian</h2>
                         <img class="portrait" src="http://via.placeholder.com/150x150">
                         <p class="title">Graphic Designer</p>
@@ -165,7 +168,7 @@
                         </p>
                     </div>
 
-                    <div class="team-member col-md-4 wow fadeInRight delay-200">
+                    <div class="team-member col-md-4 scrollreveal" data-animation-name="fadeInRight">
                         <h2 class="name">Randy Labrecque</h2>
                         <img class="portrait" src="http://via.placeholder.com/150x150">
                         <p class="title">Team Manager & Project Director</p>
@@ -223,7 +226,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"                 integrity="sha256-/GXjBGBWRx8/y1Be190w3hrUOFXNs9qPhthi0tbNnG8=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"                      integrity="sha256-gL1ibrbVcRIHKlCO5OXOPC/lZz/gpdApgQAzskqqXp8=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha256-GIa8Vh3sfESnVB2CN3rYGkD/MklvMq0lmITweQxE1qU=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/graingert-wow/1.2.2/wow.min.js"                     integrity="sha256-gopJVYlh0S1SDzGgSVfVDKq3r27Lc8SzPE0FJ+c4EVk=" crossorigin="anonymous"></script>
         <script src="script.js"></script>
     </body>
 </html>
