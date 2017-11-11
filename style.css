@@ -228,6 +228,7 @@ section#team {
 
 .team-member {
     text-align: center;
+    margin: 1rem 0;
 }
 
 .team-member .name {
@@ -245,10 +246,11 @@ section#team {
 
 .team-member .title {
     text-transform: uppercase;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: 300;
     font-family: "Arial", serif;
     text-align: center;
+    margin-top: 0.5rem;
 }
 
 .team-member .description {
