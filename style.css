@@ -18,26 +18,6 @@ html.js .scrollreveal {
     visibility: hidden;
 }
 
-.delay-200 {
-    animation-delay: 200ms;
-}
-
-.delay-400 {
-    animation-delay: 400ms;
-}
-
-.delay-600 {
-    animation-delay: 600ms;
-}
-
-.delay-800 {
-    animation-delay: 800ms;
-}
-
-.delay-1000 {
-    animation-delay: 1000ms;
-}
-
 .btn-primary {
     background-color: #880000;
     border-color: #880000;
@@ -93,15 +73,15 @@ nav ul li a {
 }
 
 @media screen and (min-width: 992px) {
-    .nav-top .navbar-brand img {
+    html.js .nav-top .navbar-brand img {
         width: 250px;
     }
 
-    .nav-top {
+    html.js .nav-top {
         background-color: transparent !important;
     }
 
-    .nav-top .nav-link {
+    html.js .nav-top .nav-link {
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
