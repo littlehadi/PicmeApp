@@ -26,30 +26,26 @@ function onScroll() {
     $('.scrollreveal:not(.revealed)').each(function () {
         var $self = $(this);
         var top = $self.offset().top;
+        var height = $self.height();
 
-        // only reveal if bottom of page is higher than top offset of element
-        if (scroll + documentHeight > top)
+        // only animate if whole element isn't in viewport (indicating page was refreshed at a certain position)
+        if (top < scroll + documentHeight && scroll + documentHeight < top + height)
             $elements.push($self);
+        else if (scroll + documentHeight > top + height)
+            $self.css('visibility', 'visible').addClass('revealed')
     });
 
     // iterate through elements that should be revealed
     for (var i = 0; i < $elements.length; i++) {
         var $self = $elements[i];
-        var top = $self.offset().top;
-        var height = $self.height();
         var animationName = $self.data('animation-name');
-        var delay = 100; // TODO: should not be hardcoded
+        var delay = 100;
 
         // show element
         $self.css('visibility', 'visible');
 
-        // only animate if whole element isn't in viewport (indicating page was refreshed at a certain position)
-        if (scroll + documentHeight < top + height) {
-            $self.css('animation-name', animationName);
-            $self.css('animation-delay', i * delay + 'ms'); // add delay between elements being revealed at the same time
-            $self.addClass('animated');
-        }
-
-        $self.addClass('revealed');
+        // add delay between elements being revealed at the same time
+        $self.css({ 'animation-name': animationName, 'animation-delay': i * delay + 'ms' });
+        $self.addClass('animated revealed');
     }
 }
