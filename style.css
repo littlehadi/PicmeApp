@@ -271,12 +271,10 @@ section#team {
     transition: .5s ease;
   }
 .container:hover .overlay {
-    opacity: 0.5;
+    opacity: 0.75;
   }
 
-.team-member .description {
 
-}
 
 /******************************/
 /*           FOOTER           */
