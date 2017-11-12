@@ -240,6 +240,7 @@ section#team {
 }
 
 .team-member .title {
+    position: absolute;
     text-transform: uppercase;
     font-size: 1.15rem;
     font-weight: 300;
@@ -248,7 +249,7 @@ section#team {
 }
 .text {
     color: black;
-    font-size: 20px;
+    font-size: 12px;
     position: absolute;
     top: 5%;
     left: 5%;
@@ -267,10 +268,10 @@ section#team {
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .5s;
+    transition: .5s ease;
   }
 .container:hover .overlay {
-    opacity: 0.75;
+    opacity: 0.5;
   }
 
 .team-member .description {
