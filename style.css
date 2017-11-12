@@ -18,6 +18,18 @@ html.js .scrollreveal {
     visibility: hidden;
 }
 
+#home-slogan {
+    animation-delay: 500ms;
+}
+
+#home-lead {
+    animation-delay: 1000ms;
+}
+
+#home-buttons {
+    animation-delay: 2000ms;
+}
+
 .btn-primary {
     background-color: #880000;
     border-color: #880000;
