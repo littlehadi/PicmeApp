@@ -246,6 +246,32 @@ section#team {
     text-align: center;
     margin-top: 0.5rem;
 }
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+.container {
+    position: relative;
+    width: 50%;
+  }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s;
+  }
+.container:hover .overlay {
+    opacity: 0.75;
+  }
 
 .team-member .description {
 
