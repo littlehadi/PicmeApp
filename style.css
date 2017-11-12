@@ -254,7 +254,7 @@ section#team {
     top: 5%;
     left: 5%;
   }
-.container {
+.cont2 {
     position: relative;
     width: 50%;
   }
@@ -270,7 +270,7 @@ section#team {
     opacity: 0;
     transition: .5s ease;
   }
-.container:hover .overlay {
+.cont2:hover .overlay {
     opacity: 0.75;
   }
 
