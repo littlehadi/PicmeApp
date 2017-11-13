@@ -1,280 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Picme</title>
+        <title>Picme</title>
 
-    <link rel="icon" href="favicon.png"/>
+        <link rel="icon" href="favicon.png"/>
 
-    <!-- modernizr stays on top to properly detect features -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
-            integrity="sha256-0rguYS0qgS6L4qVzANq4kjxPLtvnp5nn2nB5G1lWRv4=" crossorigin="anonymous"></script>
+        <!-- modernizr stays on top to properly detect features -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+                integrity="sha256-0rguYS0qgS6L4qVzANq4kjxPLtvnp5nn2nB5G1lWRv4=" crossorigin="anonymous"></script>
 
-    <!-- the website uses Twitter Bootstrap. Check out their documentation to learn about the
-         available components and elements here https://getbootstrap.com/docs/4.0/getting-started/introduction/ -->
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
-          integrity="sha256-QUyqZrt5vIjBumoqQV0jM8CgGqscFfdGhN+nVCqX0vc=" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
-          integrity="sha256-j+P6EZJVrbXgwSR5Mx+eCS6FvP9Wq27MBRC/ogVriY0=" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
-    <link rel="stylesheet" href="style.css"/>
-</head>
+        <!-- the website uses Twitter Bootstrap. Check out their documentation to learn about the
+             available components and elements here https://getbootstrap.com/docs/4.0/getting-started/introduction/ -->
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+              integrity="sha256-QUyqZrt5vIjBumoqQV0jM8CgGqscFfdGhN+nVCqX0vc=" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+              integrity="sha256-j+P6EZJVrbXgwSR5Mx+eCS6FvP9Wq27MBRC/ogVriY0=" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
+        <link rel="stylesheet" href="css/style.min.css"/>
+    </head>
 
-<body data-spy="scroll" data-target="#navbar" data-offset="55">
-<nav id="site-navigation" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-animated nav-top">
-    <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <body data-spy="scroll" data-target="#navbar" data-offset="55">
+        <nav id="site-navigation" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-animated nav-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                        aria-controls="navbar"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <a class="navbar-brand" href="#">
-            <img src="img/logo.svg"/>
-        </a>
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.svg"/>
+                </a>
 
-        <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#features">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#pricing">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#team">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<section id="home">
-    <div class="video-background">
-        <div class="background">
-            <video playsinline autoplay muted loop poster="img/bg.jpg">
-                <source src="video/bg.webm" type="video/webm">
-                <source src="video/bg.mp4" type="video/mp4">
-                Your browser does not support videos.
-            </video>
-        </div>
-        <div class="container overlay">
-            <h1 id="home-slogan" class="animated fadeInUp">Pick the best photographer for the best moment</h1>
-            <p id="home-lead" class="lead animated fadeInUp">Wherever you are, Picme is right there.</p>
-
-            <div id="home-buttons" class="animated fadeIn">
-                <a href="#" class="btn btn-primary btn-lg">Get the app</a>
-                <a href="#" class="btn btn-secondary btn-lg">Sign up</a>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </nav>
 
-            <a class="bottom-button animated fadeIn" href="#features">
-                <img class="chevron" src="img/chevron-down.svg"/>
-            </a>
-        </div>
-    </div>
-</section>
+        <section id="home">
+            <div class="video-background">
+                <div class="background">
+                    <video playsinline autoplay muted loop poster="img/bg.jpg">
+                        <source src="video/bg.webm" type="video/webm">
+                        <source src="video/bg.mp4" type="video/mp4">
+                        Your browser does not support videos.
+                    </video>
+                </div>
+                <div class="container overlay">
+                    <h1 id="home-slogan" class="animated fadeInUp">Pick the best photographer for the best moment</h1>
+                    <p id="home-lead" class="lead animated fadeInUp">Wherever you are, Picme is right there.</p>
 
-<section id="features">
-    <div class="container">
-        <h1>Features</h1>
-        <p class="lead">Picme is a service that allows people to get in contact with a photographer near their area for
-            a quick photoshoot.</p>
-        <div class="row">
-            <div class="feature col-md-4 scrollreveal" data-animation-name="fadeInLeft">
-                <div class="icon"><img src="img/camera-retro.svg"/></div>
-                <p>You have the option of selecting a professional photographer with an already established studio or an
-                    enthusiast who’s just starting out.</p>
-            </div>
-
-            <div class="feature col-md-4 scrollreveal" data-animation-name="fadeInLeft">
-                <div class="icon"><img src="img/mobile-alt.svg"/></div>
-                <p>Using the mobile app, you locate and choose a photograph signed up with the service and have them get
-                    to their location in a few minutes.</p>
-            </div>
-
-            <div class="feature col-md-4 scrollreveal" data-animation-name="fadeInLeft">
-                <div class="icon"><img src="img/paper-plane.svg"/></div>
-                <p>After the shoot, the photographer sends you the pictures through the Picme app.
-                <p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="pricing">
-    <div class="container">
-        <h1>Pricing</h1>
-        <p class="lead">Pricing options include photo editing.</p>
-        <div class="row">
-            <div class="col-sm-6 pricing-tier scrollreveal" data-animation-name="fadeIn">
-                <h2>Enthusiast</h2>
-                <span class="cost">25</span>
-                <p class="description">
-                    Description of price range
-                </p>
-            </div>
-            <div class="col-sm-6 pricing-tier scrollreveal" data-animation-name="fadeIn">
-                <h2>Professional</h2>
-                <span class="cost">35</span>
-                <p class="description">
-                    Description of price range
-                </p>
-            </div>
-        </div>
-        <p class="text-muted small text-right">* Prices are for informative purposes only and are subject to change</p>
-    </div>
-</section>
-
-<section id="team">
-    <div class="container">
-        <h1>Team</h1>
-        <div class="row justify-content-center">
-            <div class="team-member col-md-4 scrollreveal" data-animation-name="fadeInRight">
-                <h2 class="name">Hady El-Saleh</h2>
-                <div class="hover-reveal">
-                    <div class="background">
-                        <p class="title">CEO</p>
-                        <img class="portrait" src="img/profiles/helsa.jpg">
+                    <div id="home-buttons" class="animated fadeIn">
+                        <a href="#" class="btn btn-primary btn-lg">Get the app</a>
+                        <a href="#" class="btn btn-secondary btn-lg">Sign up</a>
                     </div>
-                    <div class="overlay">
+
+                    <a class="bottom-button animated fadeIn" href="#features">
+                        <img class="chevron" src="img/chevron-down.svg"/>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <h1>Features</h1>
+                <p class="lead">Picme is a service that allows people to get in contact with a photographer near their
+                    area for
+                    a quick photoshoot.</p>
+                <div class="row">
+                    <div class="feature col-md-4 scrollreveal" data-animation-name="fadeInLeft">
+                        <div class="icon"><img src="img/camera-retro.svg"/></div>
+                        <p>You have the option of selecting a professional photographer with an already established
+                            studio or an
+                            enthusiast who’s just starting out.</p>
+                    </div>
+
+                    <div class="feature col-md-4 scrollreveal" data-animation-name="fadeInLeft">
+                        <div class="icon"><img src="img/mobile-alt.svg"/></div>
+                        <p>Using the mobile app, you locate and choose a photograph signed up with the service and have
+                            them get
+                            to their location in a few minutes.</p>
+                    </div>
+
+                    <div class="feature col-md-4 scrollreveal" data-animation-name="fadeInLeft">
+                        <div class="icon"><img src="img/paper-plane.svg"/></div>
+                        <p>After the shoot, the photographer sends you the pictures through the Picme app.
+                        <p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <div class="container">
+                <h1>Pricing</h1>
+                <p class="lead">Pricing options include photo editing.</p>
+                <div class="row">
+                    <div class="col-sm-6 pricing-tier scrollreveal" data-animation-name="fadeIn">
+                        <h2>Enthusiast</h2>
+                        <span class="cost">25</span>
                         <p class="description">
-                            Hadi is a businessman at heart. He is always thinking of how to push our service to the next
-                            level and how to better market our product to the right people. His entrepreneurial mindset
-                            helps us get our project off ground and into more possibilities in the future.
+                            Description of price range
+                        </p>
+                    </div>
+                    <div class="col-sm-6 pricing-tier scrollreveal" data-animation-name="fadeIn">
+                        <h2>Professional</h2>
+                        <span class="cost">35</span>
+                        <p class="description">
+                            Description of price range
                         </p>
                     </div>
                 </div>
+                <p class="text-muted small text-right">* Prices are for informative purposes only and are subject to
+                    change</p>
             </div>
+        </section>
 
-            <div class="team-member col-md-4 scrollreveal" data-animation-name="fadeInRight">
-                <h2 class="name">Maulik Shah</h2>
-                <div class="hover-reveal">
-                    <div class="background">
-                        <p class="title">Founder</p>
-                        <img class="portrait" src="img/profiles/mshah.jpg">
+        <section id="team">
+            <div class="container">
+                <h1>Team</h1>
+                <div class="row justify-content-center">
+                    <div class="team-member col-md-4 scrollreveal" data-animation-name="fadeInRight">
+                        <h2 class="name">Hady El-Saleh</h2>
+                        <div class="hover-reveal">
+                            <div class="background">
+                                <p class="title">CEO</p>
+                                <img class="portrait" src="img/profiles/helsa.jpg">
+                            </div>
+                            <div class="overlay">
+                                <p class="description">
+                                    Hadi is a businessman at heart. He is always thinking of how to push our service to
+                                    the next
+                                    level and how to better market our product to the right people. His entrepreneurial
+                                    mindset
+                                    helps us get our project off ground and into more possibilities in the future.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="overlay">
-                        <p class="description">
-                            Maulik is the founder and the all-rounder. He was the one to come up with the idea and
-                            elaborate it to the team when we were struggling. He dabbles in every facet of the project.
-                            His diverse skills are a key asset to team and make him a member we can rely on to do pretty
-                            much anything.
-                        </p>
+
+                    <div class="team-member col-md-4 scrollreveal" data-animation-name="fadeInRight">
+                        <h2 class="name">Maulik Shah</h2>
+                        <div class="hover-reveal">
+                            <div class="background">
+                                <p class="title">Founder</p>
+                                <img class="portrait" src="img/profiles/mshah.jpg">
+                            </div>
+                            <div class="overlay">
+                                <p class="description">
+                                    Maulik is the founder and the all-rounder. He was the one to come up with the idea
+                                    and
+                                    elaborate it to the team when we were struggling. He dabbles in every facet of the
+                                    project.
+                                    His diverse skills are a key asset to team and make him a member we can rely on to
+                                    do pretty
+                                    much anything.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-member col-md-4 scrollreveal" data-animation-name="fadeInRight">
+                        <h2 class="name">Nicolas Gnyra</h2>
+                        <div class="hover-reveal">
+                            <div class="background">
+                                <p class="title">Lead Developer</p>
+                                <img class="portrait" src="img/profiles/ngnyr.jpg">
+                            </div>
+                            <div class="overlay">
+                                <p class="description">
+                                    For Nicolas, coding is a way of life. Once he gets his mind on a project, he
+                                    obsesses over
+                                    it. Nicolas has a great knowledge of coding and considerate programing experience
+                                    already
+                                    under his belt. He makes our project possible through his meticulous programing
+                                    skills.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-member col-md-4 scrollreveal" data-animation-name="fadeInRight">
+                        <h2 class="name">Maxim Melkonian</h2>
+                        <div class="hover-reveal">
+                            <div class="background">
+                                <p class="title">Graphic Designer</p>
+                                <img class="portrait" src="img/profiles/mmelk.jpg">
+                            </div>
+                            <div class="overlay">
+                                <p class="description">
+                                    Maxim knows how to make something eye catching and clean at the same time. An
+                                    artstyle that
+                                    really compliments our service. His expertise in the graphic department helps us to
+                                    make our
+                                    product not only appealing but practical for the users.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-member col-md-4 scrollreveal" data-animation-name="fadeInRight">
+                        <h2 class="name">Randy Labrecque</h2>
+                        <div class="hover-reveal">
+                            <div class="background">
+                                <p class="title">Team Manager & Project Director</p>
+                                <img class="portrait" src="img/profiles/rlabr.jpg">
+                            </div>
+                            <div class="overlay">
+                                <p class="description">
+                                    Randy is the man with the vision. He makes sure the team are all on the page about
+                                    project
+                                    and that this is the best direction to take it. His analytical thinking of how
+                                    someone would
+                                    want to use the product and what they would get out of it is a great perk in helping
+                                    produce
+                                    the best possible experience for our users.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="team-member col-md-4 scrollreveal" data-animation-name="fadeInRight">
-                <h2 class="name">Nicolas Gnyra</h2>
-                <div class="hover-reveal">
-                    <div class="background">
-                        <p class="title">Lead Developer</p>
-                        <img class="portrait" src="img/profiles/ngnyr.jpg">
+        <section id="contact">
+            <div class="container">
+                <h1>Contact</h1>
+                <p class="lead">Have a burning question you want to ask us? Send us a message!</p>
+                <form class="scrollreveal" data-animation-name="fadeIn">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="form-group">
+                                <input id="name" class="form-control" type="text" placeholder="Name"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="form-group">
+                                <input id="email" class="form-control" type="text" placeholder="Email Address"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-4">
+                            <div class="form-group">
+                                <input id="subject" class="form-control" type="text" placeholder="Subject"/>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <textarea id="message" class="form-control" placeholder="Message"></textarea>
+                            </div>
+                        </div>
                     </div>
-                    <div class="overlay">
-                        <p class="description">
-                            For Nicolas, coding is a way of life. Once he gets his mind on a project, he obsesses over
-                            it. Nicolas has a great knowledge of coding and considerate programing experience already
-                            under his belt. He makes our project possible through his meticulous programing skills.
-                        </p>
-                    </div>
-                </div>
+                    <button class="btn btn-primary" type="submit">Send</button>
+                </form>
             </div>
+        </section>
 
-            <div class="team-member col-md-4 scrollreveal" data-animation-name="fadeInRight">
-                <h2 class="name">Maxim Melkonian</h2>
-                <div class="hover-reveal">
-                    <div class="background">
-                        <p class="title">Graphic Designer</p>
-                        <img class="portrait" src="img/profiles/mmelk.jpg">
-                    </div>
-                    <div class="overlay">
-                        <p class="description">
-                            Maxim knows how to make something eye catching and clean at the same time. An artstyle that
-                            really compliments our service. His expertise in the graphic department helps us to make our
-                            product not only appealing but practical for the users.
-                        </p>
-                    </div>
-                </div>
+        <footer class="footer">
+            <div class="container text-right">
+                Copyright &copy; 2017 Picme. All Rights Reserved.
             </div>
+        </footer>
 
-            <div class="team-member col-md-4 scrollreveal" data-animation-name="fadeInRight">
-                <h2 class="name">Randy Labrecque</h2>
-                <div class="hover-reveal">
-                    <div class="background">
-                        <p class="title">Team Manager & Project Director</p>
-                        <img class="portrait" src="img/profiles/rlabr.jpg">
-                    </div>
-                    <div class="overlay">
-                        <p class="description">
-                            Randy is the man with the vision. He makes sure the team are all on the page about project
-                            and that this is the best direction to take it. His analytical thinking of how someone would
-                            want to use the product and what they would get out of it is a great perk in helping produce
-                            the best possible experience for our users.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="contact">
-    <div class="container">
-        <h1>Contact</h1>
-        <p class="lead">Have a burning question you want to ask us? Send us a message!</p>
-        <form class="scrollreveal" data-animation-name="fadeIn">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="form-group">
-                        <input id="name" class="form-control" type="text" placeholder="Name"/>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="form-group">
-                        <input id="email" class="form-control" type="text" placeholder="Email Address"/>
-                    </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-4">
-                    <div class="form-group">
-                        <input id="subject" class="form-control" type="text" placeholder="Subject"/>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="form-group">
-                        <textarea id="message" class="form-control" placeholder="Message"></textarea>
-                    </div>
-                </div>
-            </div>
-            <button class="btn btn-primary" type="submit">Send</button>
-        </form>
-    </div>
-</section>
-
-<footer class="footer">
-    <div class="container text-right">
-        Copyright &copy; 2017 Picme. All Rights Reserved.
-    </div>
-</footer>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.min.js"
-        integrity="sha256-MMt0/21G3z0Zg4ET1kI3HC9npItDowkitRDVr0FhCxA=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"
-        integrity="sha256-/GXjBGBWRx8/y1Be190w3hrUOFXNs9qPhthi0tbNnG8=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-        integrity="sha256-gL1ibrbVcRIHKlCO5OXOPC/lZz/gpdApgQAzskqqXp8=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
-        integrity="sha256-GIa8Vh3sfESnVB2CN3rYGkD/MklvMq0lmITweQxE1qU=" crossorigin="anonymous"></script>
-<script src="script.js"></script>
-</body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+                integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.min.js"
+                integrity="sha256-MMt0/21G3z0Zg4ET1kI3HC9npItDowkitRDVr0FhCxA=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"
+                integrity="sha256-/GXjBGBWRx8/y1Be190w3hrUOFXNs9qPhthi0tbNnG8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+                integrity="sha256-gL1ibrbVcRIHKlCO5OXOPC/lZz/gpdApgQAzskqqXp8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+                integrity="sha256-GIa8Vh3sfESnVB2CN3rYGkD/MklvMq0lmITweQxE1qU=" crossorigin="anonymous"></script>
+        <script src="js/script.min.js"></script>
+    </body>
 </html>

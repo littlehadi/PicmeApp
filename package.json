@@ -1,0 +1,22 @@
+{
+  "name": "picme-app.github.io",
+  "version": "1.0.0",
+  "description": "This app allows you to connect with photographers in your area, on demand, for a quick photoshoot. Professional and hobbyist photographers can make a bit of money in their spare time while helping tourists and the local community.",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "cssnano": "^3.10.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-postcss": "^0.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/picme-app/picme-app.github.io.git"
+  },
+  "author": "",
+  "homepage": "https://www.picmeapp.ca"
+}
