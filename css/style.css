@@ -203,6 +203,7 @@ section#pricing {
 
 .pricing-tier {
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .pricing-tier .name {
