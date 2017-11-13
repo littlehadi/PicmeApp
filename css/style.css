@@ -81,7 +81,11 @@ nav ul li a {
     background-color: rgb(48, 48, 48) !important;
 }
 
-#site-navigation .nav-link:hover {
+.nav-link {
+    margin: 0 .3rem;
+}
+
+.nav-link:hover {
     background-color: transparent;
 }
 
@@ -157,14 +161,14 @@ section#home {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25));
     background-size: cover;
     height: 3rem;
 }
 
 .video-background .bottom-button .chevron {
     width: 3rem;
-    margin-top: -3rem;
+    margin-top: -1rem;
     opacity: 0.5;
     transition: 500ms all ease;
     transform: translateY(-1rem);
@@ -236,7 +240,7 @@ section#pricing {
 }
 
 .pricing-tier .cost::after {
-    content: "/ session*";
+    content: "/ hour";
     font-size: 1.75rem;
     position: relative;
 }
