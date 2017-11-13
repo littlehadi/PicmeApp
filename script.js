@@ -1,6 +1,8 @@
-
-
 (function() {
+    $('.navbar-nav > li > a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
+
     // init smooth scroll
     new SmoothScroll('a[href*="#"]');
 
