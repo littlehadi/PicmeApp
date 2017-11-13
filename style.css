@@ -27,6 +27,10 @@ html.js .scrollreveal {
     animation-delay: 2000ms;
 }
 
+#home-bottom-button {
+    animation-delay: 2500ms;
+}
+
 .btn-primary {
     background-color: #880000;
     border-color: #880000;
