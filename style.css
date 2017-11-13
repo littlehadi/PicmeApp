@@ -234,8 +234,8 @@ section#team {
 }
 
 .team-member .portrait {
-    width: 150px;
-    height: 150px;
+    width: 200%;
+    height: 200%;
     border-radius: 75px;
 }
 
