@@ -152,19 +152,22 @@ section#home {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    height: 3rem;
 }
 
 .video-background .bottom-button .chevron {
     width: 3rem;
-    margin-top: -2.5rem;
+    margin-top: -3rem;
     opacity: 0.5;
     transition: 500ms all ease;
-    transform: translate(0, -1rem);
+    transform: translateY(-1rem);
 }
 
 .video-background .bottom-button:hover .chevron {
     opacity: 1;
-    transform: translate(0, 0);
+    transform: translateY(0);
 }
 
 /******************************/
