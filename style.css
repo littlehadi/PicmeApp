@@ -270,7 +270,7 @@ section#team {
     opacity: 0;
     transition: .5s ease;
   }
-.team-member .cont2:hover .overlay {
+.cont2:hover .overlay {
     opacity: 0.75;
   }
 
