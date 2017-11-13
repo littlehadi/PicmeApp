@@ -149,6 +149,7 @@ section#home {
     position: absolute;
     bottom: 0;
     cursor: pointer;
+    animation-delay: 2500ms;
 }
 
 .video-background .bottom-button .chevron {
@@ -205,8 +206,6 @@ section#pricing {
 .pricing-tier .name {
     display: block;
     font-size: 1.2rem;
-    background: #640000;
-    color: #fff;
     padding: 0.5rem;
     font-weight: 300;
     border-radius: 0.5rem 0.5rem 0 0;
@@ -216,7 +215,6 @@ section#pricing {
     font-size: 5rem;
     font-weight: 300;
     display: block;
-    border-bottom: 2px solid #444;
 }
 
 .pricing-tier .cost::before {
@@ -224,6 +222,13 @@ section#pricing {
     font-size: 1.75rem;
     position: relative;
     top: -2.25rem;
+}
+
+.pricing-tier .cost::after {
+    content: "/ session*";
+    font-size: 1.75rem;
+    position: relative;
+    bottom: 0rem;
 }
 
 .pricing-tier .features {
