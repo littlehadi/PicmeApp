@@ -247,19 +247,19 @@ section#team {
     text-align: center;
     margin-top: 0.5rem;
 }
-.text {
+.team-member .text {
     color: black;
     font-size: 12px;
     position: absolute;
     top: 5%;
     left: 5%;
   }
-.cont2 {
+.team-member .cont2 {
     position: relative;
     width: 50%;
   }
 
-.overlay {
+.team-member .overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -270,7 +270,7 @@ section#team {
     opacity: 0;
     transition: .5s ease;
   }
-.cont2:hover .overlay {
+.team-member .cont2:hover .overlay {
     opacity: 0.75;
   }
 
