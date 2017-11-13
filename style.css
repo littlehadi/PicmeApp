@@ -129,6 +129,25 @@ section#home {
     text-align: center;
 }
 
+.video-background .bottom-button {
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.video-background .bottom-button .chevron {
+    width: 3rem;
+    margin-top: -2.5rem;
+    opacity: 0.5;
+    transition: 500ms all ease;
+    transform: translate(0, -1rem);
+}
+
+.video-background .bottom-button:hover .chevron {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
 /******************************/
 /*          FEATURES          */
 /******************************/
