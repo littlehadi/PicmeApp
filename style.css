@@ -255,6 +255,8 @@ section#team {
     font-size: 24px;
     text-align: center;
     font-weight: bold;
+    margin-top: 0.5rem;
+    margin-right: 2.9rem;
 }
 
 .team-member .portrait {
