@@ -168,15 +168,15 @@ section#home {
 
 .video-background .bottom-button .chevron {
     width: 3rem;
-    margin-top: -1rem;
+    margin-top: -4rem;
     opacity: 0.5;
     transition: 500ms all ease;
-    transform: translateY(-1rem);
+    transform: translateY(0);
 }
 
 .video-background .bottom-button:hover .chevron {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(1rem);
 }
 
 /******************************/
