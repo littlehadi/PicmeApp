@@ -51,6 +51,10 @@ html.js .scrollreveal {
 /*         NAVIGATION         */
 /******************************/
 
+.navbar {
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+
 .navbar-animated, .navbar-animated .nav-link, .navbar-animated .navbar-brand img {
     transition: 200ms all ease;
 }
@@ -88,6 +92,7 @@ nav ul li a {
 
     html.js .nav-top {
         background-color: transparent !important;
+        box-shadow: none;
     }
 
     html.js .nav-top .nav-link {
