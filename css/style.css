@@ -35,12 +35,16 @@ html.js .scrollreveal {
     box-shadow: 0 0 0 .2rem rgba(68, 0, 0, .5)
 }
 
+.text-muted {
+    color: #888888 !important;
+}
+
 /******************************/
 /*         NAVIGATION         */
 /******************************/
 
 .navbar {
-    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
 }
 
 .navbar-animated, .navbar-animated .nav-link, .navbar-animated .navbar-brand img {
@@ -324,7 +328,6 @@ section#team {
 /******************************/
 
 footer {
-    background: #222;
+    background: #333333;
     padding: 1rem;
-    color: #888;
 }
