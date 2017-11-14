@@ -15,18 +15,6 @@ html.js .scrollreveal {
     visibility: hidden;
 }
 
-#home-slogan {
-    animation-delay: 500ms;
-}
-
-#home-lead {
-    animation-delay: 1000ms;
-}
-
-#home-buttons {
-    animation-delay: 2000ms;
-}
-
 .btn-primary {
     background-color: #880000;
     border-color: #880000;
@@ -52,7 +40,7 @@ html.js .scrollreveal {
 /******************************/
 
 .navbar {
-    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
 }
 
 .navbar-animated, .navbar-animated .nav-link, .navbar-animated .navbar-brand img {
@@ -114,6 +102,18 @@ section#home {
     color: white;
     padding: 0;
     height: 100vh;
+}
+
+#home-slogan {
+    animation-delay: 500ms;
+}
+
+#home-lead {
+    animation-delay: 1000ms;
+}
+
+#home-buttons {
+    animation-delay: 2000ms;
 }
 
 .video-background {
