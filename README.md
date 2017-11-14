@@ -13,7 +13,7 @@ hobbyist photographers can make a bit of money in their spare time while helping
 ## Contributing
 This website uses [Grunt](https://gruntjs.com/) for post-processing automation. Below are instructions on how to set it up.
 
-You must first install [NodeJS](https://nodejs.org/) on your computer. Once that is done, open a command-prompt or
+You must first install [NodeJS](https://nodejs.org/) on your computer. Once that is done, open a Command Prompt or
 Terminal window in the root folder of this website, and paste the following command:
 
     npm install
