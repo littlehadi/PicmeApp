@@ -18,7 +18,7 @@ module.exports = function(grunt) {
                     annotation: 'css/'
                 },
                 processors: [
-                    require('autoprefixer')(),
+                    require('autoprefixer')({browsers: '> 1%'}),
                     require('cssnano')()
                 ]
             },
